@@ -41,6 +41,7 @@ dependencies {
         bundledPlugins(providers.gradleProperty("platformBundledPlugins").map { it.split(',') })
 
         instrumentationTools()
+        zipSigner()
     }
 
 
